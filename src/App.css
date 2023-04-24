@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 
-.creat_box{
+
+.main_box{
+    width: 100vw;
+    height: 100vh;
+}
+.creat_notes{
     box-shadow: 0 0 10px 0px rgb(158, 157, 157);
 }
 .description_input{
@@ -15,6 +20,14 @@
     min-height: 12rem;
     border-width: 0.1px;
 }
-.card_box:hover .delete_btn{
+.card_box:hover .card_modification{
     display: block;
+}
+
+/* ---------------------- editBox ------------------------- */
+
+.edit_box{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
