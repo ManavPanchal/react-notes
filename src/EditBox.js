@@ -30,7 +30,6 @@ function EditBox({editId, setOpenEditBox}) {
             document.getElementsByClassName("title_input")[1].placeholder = title;
         if(description != "")
             document.getElementsByClassName("description_input")[1].placeholder = description;
-        
     })
 
     return (

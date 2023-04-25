@@ -30,6 +30,10 @@
     display: block;
 }
 
+.card_title{
+    font-size: 1.2rem;
+}
+
 /* ---------------------- editBox ------------------------- */
 
 #edit_box{

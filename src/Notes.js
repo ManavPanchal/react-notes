@@ -8,10 +8,10 @@ function Notes({ id, title, description, setEditCard }) {
     return (
         <div className='card_box w-56 max-h-56 rounded shadow p-3 relative'>
             <p className="card_id hidden">{id}</p>
-            <div className="card_title text-lg">
+            <div className="card_title break-words">
                 {title}
             </div>
-            <div className="card_description max-h-fit text-sm">
+            <div className="card_description max-h-fit text-sm break-words">
                 {description}
             </div>
             <div className="card_modification absolute bottom-1 right-1 hidden">
