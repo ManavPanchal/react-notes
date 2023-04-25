@@ -1,10 +1,12 @@
-import React, {useState} from 'react'
+import React, {useContext, useState} from 'react'
+import { mainBoxContex } from './MainBox';
 
-function CreateNotes({notes, setNotes}) {
+function CreateNotes() {
 
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
     
+    const {setNotes} = useContext(mainBoxContex);
 
     window.onload = () => {
         if (localStorage.notes != undefined) setNotes(JSON.parse(localStorage.notes));

@@ -13,7 +13,6 @@ root.render(
     <Router>
       <AppRoutes/>
     </Router>
-    
   </React.StrictMode>
 );
 
